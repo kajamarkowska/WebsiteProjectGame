@@ -11,6 +11,7 @@
 @foreach (var game in Model) {
   <h1>@game.Title</h1>
   <p>@game.Description</p>
+  <p><a href="/Game/Play/@game.Id">Zagraj</a></p>
   <p><b>Ocena: @game.Rate/5</b></p>
 }
  

@@ -1,0 +1,10 @@
+﻿@model ProjectGame.Models.GameViewModel
+@{
+    ViewData["Title"] = "Play";
+}
+
+<h1>@Model.Title</h1>
+
+<div class="embed-responsive embed-responsive-16by9" style="padding:5em;">
+    <iframe src="@Model.Href" name="cloudgames-com" width="@Model.Width" height="@Model.Height" frameborder="0" scrolling="no"></iframe>
+</div>

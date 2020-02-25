@@ -14,5 +14,7 @@ namespace ProjectGame.Models
         public int Width { get; set; }
         public int Height { get; set; }
         public int Rate { get; set; }
+
+        public ICollection<GameRate> Rates { get; set; }
     }
 }

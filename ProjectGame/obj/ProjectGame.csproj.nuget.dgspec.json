@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaja\\Desktop\\Nowy folder (2)\\ProjectGame\\ProjectGame\\ProjectGame.csproj": {}
+    "C:\\Users\\Kaja\\source\\repos\\ProjectGame2\\ProjectGame\\ProjectGame\\ProjectGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaja\\Desktop\\Nowy folder (2)\\ProjectGame\\ProjectGame\\ProjectGame.csproj": {
+    "C:\\Users\\Kaja\\source\\repos\\ProjectGame2\\ProjectGame\\ProjectGame\\ProjectGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaja\\Desktop\\Nowy folder (2)\\ProjectGame\\ProjectGame\\ProjectGame.csproj",
+        "projectUniqueName": "C:\\Users\\Kaja\\source\\repos\\ProjectGame2\\ProjectGame\\ProjectGame\\ProjectGame.csproj",
         "projectName": "ProjectGame",
-        "projectPath": "C:\\Users\\Kaja\\Desktop\\Nowy folder (2)\\ProjectGame\\ProjectGame\\ProjectGame.csproj",
+        "projectPath": "C:\\Users\\Kaja\\source\\repos\\ProjectGame2\\ProjectGame\\ProjectGame\\ProjectGame.csproj",
         "packagesPath": "C:\\Users\\Kaja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaja\\Desktop\\Nowy folder (2)\\ProjectGame\\ProjectGame\\obj\\",
+        "outputPath": "C:\\Users\\Kaja\\source\\repos\\ProjectGame2\\ProjectGame\\ProjectGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

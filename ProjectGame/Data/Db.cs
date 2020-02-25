@@ -15,10 +15,13 @@ namespace ProjectGame.Data
         }
 
         public DbSet<Game> Games { get; set; }
+        public DbSet<GameRate> Rates { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Game>().ToTable("Game");
+            modelBuilder.Entity<GameRate>().ToTable("GameRate");
         }
+   
     }
 }

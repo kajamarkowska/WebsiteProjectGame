@@ -24,7 +24,8 @@ namespace ProjectGame.Controllers
                                           {
                                               Title = game.Title,
                                               Description = game.Description,
-                                              Rate = game.Rate
+                                              Rate = game.Rate,
+                                              Id = game.Id
                                           }).ToList();
             return View(games);
         }
