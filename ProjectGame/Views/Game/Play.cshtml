@@ -4,7 +4,25 @@
 }
 
 <h1>@Model.Title</h1>
+<p><b>Ocena:</b> @Model.Rate/5</p>
+<p>
+    <form action="/Game/Rate" method="post">
+        <label for="rate">Wybierz ocenę:</label>
+        <select id="rate" name="rate">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option selected>5</option>
 
+        </select>
+
+        <input type="hidden"  name="gameId" value="@Model.Id"/>
+        <input type="submit" value="Oceń" />
+       
+
+    </form>
+</p>
 <div class="embed-responsive embed-responsive-16by9" style="padding:5em;">
     <iframe src="@Model.Href" name="cloudgames-com" width="@Model.Width" height="@Model.Height" frameborder="0" scrolling="no"></iframe>
 </div>

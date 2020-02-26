@@ -12,7 +12,7 @@ namespace ProjectGame.Models
         public string Href { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
-        public int Rate { get; set; }
+        public double Rate { get; set; }
 
         public int Id { get; set; }
     }

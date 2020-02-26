@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProjectGame.Data;
 using ProjectGame.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProjectGame.Controllers
 {
@@ -19,13 +20,14 @@ namespace ProjectGame.Controllers
 
         public IActionResult Index()
         {
-            IList<GameViewModel> games = (from game in db.Games
+            IList<GameViewModel> games = (from game in db.Games.Include(g => g.Rates)
                                           select new GameViewModel()
                                           {
                                               Title = game.Title,
-                                              Description = game.Description,
-                                              Rate = game.Rate,
-                                              Id = game.Id
+                                              Description = game.Description,    
+                                              Id = game.Id,
+                                              Rate =game.Rates.Average(r => r.Rate)
+
                                           }).ToList();
             return View(games);
         }

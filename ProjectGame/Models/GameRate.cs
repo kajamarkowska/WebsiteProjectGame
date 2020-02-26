@@ -9,6 +9,7 @@ namespace ProjectGame.Models
     {
         public int GameId { get; set; }
         public int Rate { get; set; }
+        public int Id { get; set; }
         public Game Game { get; set; }
     }
 }
